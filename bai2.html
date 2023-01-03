@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array1 = ["a", "b", "c", "d", "e"];
+   let num = parseInt(prompt("Enter the number: "));
+   let array2 = [" "];
+   tryRemoveFromArray()
+   function tryRemoveFromArray() {
+       for(let i = 0; i < array1.length; i++){
+           if(num === i) {
+               array1[i] = array2[0];
+               document.writeln(array1[i]);
+           }
+           else {
+               document.writeln(array1[i]);
+           }
+       }
+   }
+</script>
+</body>
+</html>
